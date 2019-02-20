@@ -141,6 +141,7 @@ html {
 .container {
   max-width: 1000px;
   padding: 0 65px;
+  margin: auto;
 }
 @media (max-width: 500px) {
   .container {
