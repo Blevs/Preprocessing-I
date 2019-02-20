@@ -204,14 +204,14 @@ html {
   }
 }
 .container .top {
-  background-color: lightgrey;
+  background-color: #e9ecef;
   padding: 65px 32px 80px 32px;
   border-radius: 5px;
   margin-bottom: 30px;
 }
 .container .top .profile {
   padding-bottom: 26px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #dfdfdf;
   margin-bottom: 26px;
 }
 .container .top .profile p {
@@ -255,11 +255,11 @@ html {
 .container .middle table {
   border-collapse: separate;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: 1px solid #dfdfdf;
   width: 100%;
 }
 .container .middle td {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #dfdfdf;
   font-size: 1.6rem;
   padding: 16px 18px;
 }
@@ -288,18 +288,18 @@ html {
   padding: 16px 11px;
 }
 .container .bottom th {
-  border-bottom: 1px solid lightgrey;
-  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid #dfdfdf;
+  border-top: 1px solid #dfdfdf;
   font-weight: bold;
 }
 .container .bottom td {
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid #dfdfdf;
 }
 .container .bottom tr td:first-child {
   font-weight: bold;
 }
 .container .bottom tr:nth-child(even) {
-  background-color: lightgrey;
+  background-color: #f2f2f2;
 }
 .container footer {
   background-color: grey;
@@ -314,7 +314,7 @@ html {
   font-weight: bold;
   text-align: center;
 }
-button {
+.container button {
   background-color: grey;
   color: white;
   border: none;

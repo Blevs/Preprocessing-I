@@ -60,6 +60,11 @@ html, body {
 // Variables
 @font-stack: Arial, "sans-serif";
 @mobile-width: 500px;
+@blue-steel: #e9ecef;
+@light-grey: #f2f2f2;
+@border-grey: #dfdfdf;
+@dark-grey: grey;
+@white: white;
 
 // styling
 html {
@@ -133,14 +138,14 @@ html {
     }
 
     .top {
-        background-color: lightgrey;
+        background-color: @blue-steel;
         padding: 65px 32px 80px 32px;
         border-radius: 5px;
         margin-bottom: 30px;
 
         .profile {
             padding-bottom: 26px;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid @border-grey;
             margin-bottom: 26px;
 
             p {
@@ -183,12 +188,12 @@ html {
         table {
             border-collapse: separate;
             border-radius: 5px;
-            border: 1px solid lightgrey;
+            border: 1px solid @border-grey;
             width: 100%;
         }
 
         td {
-            border-bottom: 1px solid lightgrey;
+            border-bottom: 1px solid @border-grey;
             font-size: 1.6rem;
             padding: 16px 18px;
         }
@@ -222,13 +227,13 @@ html {
         }
 
         th {
-            border-bottom: 1px solid lightgrey;
-            border-top: 1px solid lightgrey;
+            border-bottom: 1px solid @border-grey;
+            border-top: 1px solid @border-grey;
             font-weight: bold;
         }
 
         td {
-            border-top: 1px solid lightgrey;
+            border-top: 1px solid @border-grey;
         }
 
         tr td:first-child {
@@ -236,12 +241,12 @@ html {
         }
 
         tr:nth-child(even) {
-            background-color: lightgrey;
+            background-color: @light-grey;
         }
     }
 
     footer {
-        background-color: grey;
+        background-color: @dark-grey;
         height: 80px;
         display: flex;
         justify-content: space-around;
@@ -249,20 +254,21 @@ html {
         margin: 0 -15px;
 
         p {
-            color: white;
+            color: @white;
             font-weight: bold;
             text-align: center;
         }
     }
+
+    button {
+        background-color: @dark-grey;
+        color: @white;
+        border: none;
+        border-radius: 5px;
+        font-size: 2.1rem;
+        font-weight: bold;
+        padding: 10px 14px;
+    }
 }
 
 
-button {
-    background-color: grey;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 2.1rem;
-    font-weight: bold;
-    padding: 10px 14px;
-}
