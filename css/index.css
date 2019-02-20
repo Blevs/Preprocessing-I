@@ -197,6 +197,7 @@ html {
 .container h1 {
   font-size: 6rem;
   margin-bottom: 15px;
+  font-family: 'Fjalla One', sans-serif;
 }
 @media (max-width: 500px) {
   .container h1 {
